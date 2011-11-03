@@ -1,7 +1,7 @@
 swauth (1.0.2-2) lucid; urgency=low
 
   * Non-maintainer upload.
-  * Repackage for ops.rcb.me diablo-final
+  * Repackage for ops.rcb.me diablo-d5
 
  -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 03 Nov 2011 12:54:31 -0500
 
