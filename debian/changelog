@@ -1,0 +1,34 @@
+swauth (1.0.2-2) lucid; urgency=low
+
+  * Non-maintainer upload.
+  * Repackage for ops.rcb.me diablo-final
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 03 Nov 2011 12:54:31 -0500
+
+swauth (1.0.2-1) lucid; urgency=low
+
+  * Fixed bug rejecting requests when using multiple instances of Swauth or
+    Swauth with other auth services.
+
+  * Fixed bug interpreting URL-encoded user names and keys.
+
+  * Added support for the Swift container sync feature.
+
+  * Allowed /not/ setting super_admin_key to disable Swauth administration
+    features.
+
+  * Added swauth_remote mode so the Swauth middleware for one Swift cluster
+    could be pointing to the Swauth service on another Swift cluster, sharing
+    account/user data sets.
+
+  * Added ability to purge stored tokens.
+
+  * Added API documentation for internal Swauth API.
+
+ -- Greg <gholt@rackspace.com>  Mon, 06 Jun 2011 20:34:02 +0000
+
+swauth (1.0.1) lucid; urgency=low
+
+  * Initial release after separation from Swift.
+
+ -- Greg <gholt@rackspace.com>  Fri, 27 May 2011 00:24:53 +0000
