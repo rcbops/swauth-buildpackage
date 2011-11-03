@@ -14,5 +14,9 @@ override_dh_clean:
 # build with sphinx documentation
 override_dh_auto_build:
 	dh_auto_build
+ifeq (,$(findstring nodocs, $(DEB_BUILD_OPTIONS)))
+	mkdir -p doc/build/html
+else
 	mkdir -p doc/build
 	python setup.py build_sphinx
+endif
