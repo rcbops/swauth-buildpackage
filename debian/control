@@ -23,7 +23,7 @@ XS-Python-Version: >= 2.6
 Homepage: https://github.com/gholt/swauth
 Vcs-Browser: https://github.com/gholt/swauth
 Vcs-Bzr: https://github.com/gholt/swauth
-XCBS-RCB-Component: diablo-final
+XCBS-RCB-Component: essex-e3
 
 Package: python-swauth
 Architecture: all
